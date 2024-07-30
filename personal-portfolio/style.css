@@ -1,0 +1,27 @@
+/* Assuming this CSS is in a file like styles.css or within a <style> block */
+.text-svg-align {
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+    text-decoration: none;
+    color: white; /* Optional: Ensures the text color is white */
+  }
+  
+  .text-svg-align svg {
+    margin-right: 8px; /* Space between the icon and text */
+  }
+  
+  #profile-pic{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+  }
+
+  .sidebar{
+    box-shadow: 2px;
+    position: fixed;
+  }
+  .maincontent{
+    background-color: #1D2024;
+    
+  }
